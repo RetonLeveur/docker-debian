@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  debian-development:
+    container_name: debian-development
+    build: .
+    volumes:
+      - ./your-project/:/home/your-project
+    
+
+
+
